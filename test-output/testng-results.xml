@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37212" started-at="2015-09-03T07:15:02Z" finished-at="2015-09-03T07:15:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37212" started-at="2015-09-03T07:15:02Z" finished-at="2015-09-03T07:15:39Z">
+      <class name="Automationtest.mavntest.SanityTest">
+        <test-method status="PASS" signature="bc()[pri:0, instance:Automationtest.mavntest.SanityTest@318c6fd4]" name="bc" is-config="true" duration-ms="34117" started-at="2015-09-03T12:45:02Z" finished-at="2015-09-03T12:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="FAIL" signature="verifytitle()[pri:0, instance:Automationtest.mavntest.SanityTest@318c6fd4]" name="verifytitle" duration-ms="91" started-at="2015-09-03T12:45:36Z" finished-at="2015-09-03T12:45:36Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [banneddr images go here] but found [banner images go here]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [banneddr images go here] but found [banner images go here]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at Automationtest.mavntest.SanityTest.verifytitle(SanityTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method status="PASS" signature="testdictonpage()[pri:0, instance:Automationtest.mavntest.SanityTest@318c6fd4]" name="testdictonpage" duration-ms="2252" started-at="2015-09-03T12:45:36Z" finished-at="2015-09-03T12:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdictonpage -->
+        <test-method status="PASS" signature="ac()[pri:0, instance:Automationtest.mavntest.SanityTest@318c6fd4]" name="ac" is-config="true" duration-ms="735" started-at="2015-09-03T12:45:39Z" finished-at="2015-09-03T12:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ac -->
+      </class> <!-- Automationtest.mavntest.SanityTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
